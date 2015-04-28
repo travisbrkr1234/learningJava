@@ -2,7 +2,7 @@
 * @Author: Jeremiah Marks
 * @Date:   2015-04-27 22:05:46
 * @Last Modified 2015-04-27
-* @Last Modified time: 2015-04-27 22:30:15
+* @Last Modified time: 2015-04-27 23:12:41
 */
 
 import org.apache.xmlrpc.client.XmlRpcClientConfigImpl;
@@ -49,7 +49,7 @@ public class API {
         String yourAppName = "if188";
         String key = "422fb245118f7618c797f4c2d520d7e1a128d14dd486db8729dd7ed63810f9de";
         XmlRpcClientConfigImpl config = new XmlRpcClientConfigImpl();
-        config.setServerURL(new URL("https://if188.infusionsoft.com:443/api/xmlrpc"));
+        config.setServerURL(new URL("https://" + yourAppName + ".infusionsoft.com:443/api/xmlrpc"));
         XmlRpcClient client = new XmlRpcClient();
         client.setConfig(config);
 
