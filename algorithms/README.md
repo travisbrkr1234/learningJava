@@ -3,7 +3,8 @@
 included documents:
 
 * [speed examples](./speed_examples.md) - originally from [this SO answer](http://stackoverflow.com/a/2307314)
-
+* [bubble](./bubble.md) - notes about bubble sort
+* [insertion](./insertion.md) - notes about insertion sort
 
 According to ```http://www.sorting-algorithms.com/``` ,
 
