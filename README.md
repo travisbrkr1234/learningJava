@@ -1,4 +1,4 @@
-#Learning Jave
+#Learning Java
 
 This is just a repo to store notes as I get reacquainted with
 a computer science background. Some of it will likely be java
